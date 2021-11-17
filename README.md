@@ -70,7 +70,7 @@ Ich habe den StreamWriter und den StreamReader gewählt, weil ich es noch nicht 
 
 ## Verifikation
 
-Das nächste Mal werde ich es irgendwie schaffen auch andere Dateientypen, so zu erstellen, dass man sie auch richtig öffnen kann.
+Das nächste Mal werde ich es irgendwie schaffen auch andere Dateientypen, so zu erstellen, dass man sie auch richtig öffnen kann. Und ich werde meinen Code von anfang an übersichtlicher schreiben.
 
 
 
