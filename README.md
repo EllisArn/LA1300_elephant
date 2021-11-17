@@ -8,13 +8,15 @@ Ein Vokabeltrainer geschrieben in C#
 Der Leser soll nach diesem Portfolio verstehen, wie man Dateien mit einem Programm in C# erstellt und ausliest.
 
 
-## Streamwriter und Streamreader in C#
+## Streamwriter / Streamreader und File-Methode in C#
 
 Der SteamWriter implementiert einen TextWriter zum schreiben von Zeichen in einen Stream in einer bestimmten Codierung.
 <br>
 Der StreamReader implementiert einen TextReader zum lesen von Zeichen in einen Stream in einer bestimmten Codierung.
 <br>
-Das heisst, dass der StreamWriter eine Datei erstellen und diese auch beabeiten kann und dass der StreamReader diese dann auslesen kann.
+Die File-Methode (File.Create) erstellt eine Datei an einem zuvor bestimmten Speicherort.
+<br>
+Das heisst, dass die File-Methode eine Datei erstellen kann, der Streamreader diese beabeiten kann und dass der StreamReader diese dann auslesen kann.
 
 
 ## Anleitung
@@ -27,7 +29,7 @@ Falls man eine Textdatei haben will, würde ich anstatt `.txt` eher `.csv` benut
 string pathGer = @"C:\Users\Public\yourPath.csv";
 ```
 
-Um eine Datei zu erstellen, muss man zuerst abfragen, ob es bereits eine Datei hat. Dann kann man mit dem StreamWriter
+Um eine Datei zu erstellen, muss man zuerst abfragen, ob es bereits eine Datei hat. Dann kann man mit dem StreamWriter (sw ist eine Variable) und mit der `File.Create();` Methode eine Datei erstellen und gleich mit `sw.WriteLine();` einen Text in diese Datei schreiben.
 ```
 if (!File.Exists(yourPath))
 {
@@ -42,5 +44,11 @@ if (!File.Exists(yourPath))
 
 ## Reflexion
 
-Ich habe den StreamWriter und den StreamReader gewählt, weil ich es noch nicht kannte. Ich habe auch gesehen, dass man auch nicht nur Textdateien wie .txt und .csv erstellen kann, sondern auch z.B. .xlsx oder .docx. Das und dass man überhaupt Dateien so einfach erstellen kann, hat mich irgendwie fasziniert und deshalb wollte ich darüber ein Portfolio schreiben.
+Ich habe den StreamWriter und den StreamReader gewählt, weil ich es noch nicht kannte. Ich habe auch gesehen, dass man auch nicht nur Textdateien wie .txt und .csv erstellen kann, sondern auch z.B. .xlsx oder .docx Dateien. Auch wenn ich das noch nicht ganz geschafft hab, da ich die dateien nicht richtig öffnen kann. Das und dass man überhaupt Dateien so einfach erstellen kann, hat mich irgendwie fasziniert und deshalb wollte ich darüber ein Portfolio schreiben.
+
+## Verifikation
+
+Das nächste Mal werde ich es irgendwie schaffen auch andere Dateientypen, so zu erstellen, dass man sie auch richtig öffnen kann.
+
+
 
