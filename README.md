@@ -1,6 +1,6 @@
 # LA1300_elephant
 
-Ein Vokabeltrainer geschrieben in C#
+Ein Vokabeltrainer der Textdateien erstellen und auslesen kann. Geschrieben in C#
 
 
 ## Ziele dieses Portfolios
