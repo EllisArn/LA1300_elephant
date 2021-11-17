@@ -66,7 +66,7 @@ foreach (var item in namesArray)
 
 ## Reflexion
 
-Ich habe den StreamWriter und den StreamReader gewählt, weil ich es noch nicht kannte. Ich habe auch gesehen, dass man auch nicht nur Textdateien wie .txt und .csv erstellen kann, sondern auch z.B. .xlsx oder .docx Dateien. Auch wenn ich das noch nicht ganz geschafft hab, da ich die dateien nicht richtig öffnen kann. Das und dass man überhaupt Dateien so einfach erstellen kann, hat mich irgendwie fasziniert und deshalb wollte ich darüber ein Portfolio schreiben.
+Ich habe den StreamWriter und den StreamReader gewählt, weil ich es noch nicht kannte. Ich habe auch gesehen, dass man auch nicht nur Textdateien wie .txt und .csv erstellen kann, sondern auch z.B. .xlsx oder .docx Dateien. Auch wenn ich das noch nicht ganz geschafft hab, da ich die dateien nicht richtig öffnen kann. Das und dass man überhaupt Dateien so einfach erstellen kann, hat mich irgendwie fasziniert und deshalb wollte ich darüber ein Portfolio schreiben. Ich hatte anfangs keine Ahnung davon und ich hatte auch ein paar Probleme aber schlussendlich ging es doch.
 
 ## Verifikation
 
