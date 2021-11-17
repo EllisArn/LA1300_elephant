@@ -30,7 +30,7 @@ string yourPath = @"C:\Users\Public\yourFile.csv";
 ```
 
 Um eine Datei zu erstellen, muss man zuerst abfragen, ob es bereits eine Datei hat. Dann kann man mit dem StreamWriter (sw ist eine Variable) und mit der `File.Create();` Methode eine Datei erstellen und gleich mit `sw.WriteLine();` einen Text in diese Datei schreiben.
-```
+```csharp
 if (!File.Exists(yourPath))
 {
        using (StreamWriter sw = File.CreateText(yourPath))
@@ -43,7 +43,7 @@ if (!File.Exists(yourPath))
 Um eine Datei mit einem StreamReader auszulesen, muss man noch einen Streamreader erstellen, der die Datei ausliest. Danach muss man noch ein Array oder eine Liste erstellen, in der die Wörter, die der StreamReader aus der Datei ausliest, gespeichert werden.
 <br> 
 Da ich einen text mit 50 Zeilen habe, benutze ich eine `for`-Schleife, um alle Wörter auszulesen und einen `String` in dem das jeweilige Wort temporär gespeichert wird, um es von dort in das Array zu speichern.
-```
+```csharp
 StreamReader text = new StreamReader(@"C:\Users\Public\yourFile.csv");
 String[] textArr = new string[50];
 string textLine = text.ReadLine()
@@ -57,7 +57,7 @@ for (int i = 0; i < 50; i++)
 ```
 
 Um alle Wörter auf einmal anzuzeigen, kann man `foreach` benutzen.
-```
+```csharp
 foreach (var item in namesArray)
 {
        Console.Write(item);
