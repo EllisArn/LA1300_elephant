@@ -19,5 +19,10 @@ Das heisst, dass der StreamWriter eine Datei erstellen und diese auch beabeiten 
 
 ## Anleitung
 
-Um einen StreamWriter oder einen StreamReader zu benutzen muss man ´System.IO´ benutzen.
+Um einen StreamWriter oder einen StreamReader zu benutzen muss man `using System.IO;` benutzen. Und man muss eine variable mit dem Pfad Deklinieren und Initialisieren.
 <br>
+Falls man eine Textdatei haben will, würde ich anstatt `.txt` eher `.csv` benutzen, weil es ein Bisschen schneller ist.
+<br>
+```csharp
+string pathGer = @"C:\Users\Public\deinPfad.csv";
+```
