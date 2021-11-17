@@ -10,16 +10,14 @@ Der Leser soll nach diesem Portfolio verstehen, wie man Dateien mit einem Progra
 
 ## Streamwriter und Streamreader in C#
 
-### StreamWriter
-
 Der SteamWriter implementiert einen TextWriter zum schreiben von Zeichen in einen Stream in einer bestimmten Codierung.
 <br>
 Der StreamReader implementiert einen TextReader zum lesen von Zeichen in einen Stream in einer bestimmten Codierung.
 <br>
 Das heisst, dass der StreamWriter eine Datei erstellen und diese auch beabeiten kann und dass der StreamReader diese dann auslesen kann.
+
+
+## Anleitung
+
+Um einen StreamWriter oder einen StreamReader zu benutzen muss man ´System.IO´ benutzen.
 <br>
-Um einen StreamWriter oder einen StreamReader zu benutzen muss man System.IO benutzen.
-
-### StreamReader
-
-Der StreamReader implementiert einen TextReader zum lesen von Zeichen in einen Stream in einer bestimmten Codierung.
